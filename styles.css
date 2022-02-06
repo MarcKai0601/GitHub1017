@@ -1,5 +1,7 @@
 h1 {    color: red;  }
 
+h2{     color: brown;}
+
 p {    color: rgb(23, 0, 128);  }
 
 p,li {    color: green;} /*依據想要修改的段落標籤可以用,隔開一次做修改
