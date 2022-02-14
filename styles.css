@@ -1,0 +1,24 @@
+h1 {    color: red;  }
+
+p {    color: rgb(23, 0, 128);  }
+
+p,li {    color: green;} /*依據想要修改的段落標籤可以用,隔開一次做修改
+                            例如:<p>跟<li>都想修改為綠色就如同第5行的做法*/
+
+li {    list-style-type: none;  }
+
+li.special,
+span.special ,
+button.special{
+  color: orange;
+  font-weight: bold;
+}
+
+li em {
+    color: rgb(32, 7, 252);
+  }
+
+h1 + p {
+    font-size: 200%;
+}
+/*用+相連兩格標籤得作法,只會針對_+_,被加的那個標籤做CSS,例如:h1 + p 只會對<p>做CSS
